@@ -5,6 +5,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -388,8 +389,10 @@ th {
 /* ==========================================================================
    base
    ========================================================================== */
+* {
+  font-family: 'Noto Sans TC' !important; }
+
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background: url("../images/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   -o-background-size: cover; }
