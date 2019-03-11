@@ -484,6 +484,7 @@ hr.divider {
 
 .image--right {
   float: right;
+  margin-top: 2vh;
   margin-left: .6vw; }
 
 /*!
