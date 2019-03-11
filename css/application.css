@@ -475,7 +475,7 @@ hr.divider {
   margin: 0 20%; }
 
 .image {
-  height: 45vh;
+  height: calc(15vh + 15vw);
   margin-right: .6vw; }
 
 .image--left {
