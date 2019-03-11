@@ -425,6 +425,14 @@ hr {
 /* ==========================================================================
    撰寫layout
    ========================================================================== */
+@font-face {
+  font-family: NotoSansCJKtc;
+  src: url(../fonts/NotoSansCJKtc-Regular.otf); }
+
+* {
+  font-size: 16px;
+  font-family: NotoSansCJKtc, serif !important; }
+
 .tagline-upper {
   font-size: 80px;
   font-size: 5rem;
@@ -461,6 +469,22 @@ hr.divider {
 
 .map-container iframe.clicked {
   pointer-events: auto; }
+
+.image-container {
+  max-width: 60%;
+  margin: 0 20%; }
+
+.image {
+  height: 45vh;
+  margin-right: .6vw; }
+
+.image--left {
+  float: left;
+  margin-right: .6vw; }
+
+.image--right {
+  float: right;
+  margin-left: .6vw; }
 
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
