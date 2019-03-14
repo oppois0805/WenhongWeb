@@ -7455,9 +7455,16 @@ hr {
         -ms-flex-align: center !important;
             align-items: center !important; } }
 
-.title_mobile > img {
-  height: 6vh;
-  margin-right: 2.5vw; }
+.title_mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .title_mobile > img {
+    height: 6vh;
+    margin-right: 2.5vw; }
 
 .tagline-upper {
   font-size: 80px;
