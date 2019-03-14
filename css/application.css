@@ -7542,7 +7542,7 @@ p {
   margin-left: .6vw; }
 
 .index_block p {
-  font-size: calc(0.7vh + 0.7vw); }
+  font-size: 20px; }
 
 @media all and (max-width: 480px) {
   .index_block > img {
