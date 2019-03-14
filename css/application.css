@@ -7436,6 +7436,13 @@ hr {
   font-size: 16px;
   font-family: NotoSansCJKtc, serif !important; }
 
+.navbar-collapse a {
+  font-size: calc(0.7vw + 0.7vh); }
+
+@media all and (max-width: 480px) {
+  .navbar-collapse a {
+    font-size: 15px; } }
+
 .title > img {
   margin-right: 1.5vw; }
 
@@ -7534,8 +7541,8 @@ p {
   margin-bottom: .2vh;
   margin-left: .6vw; }
 
-.index_block {
-  font-size: 18px; }
+.index_block p {
+  font-size: calc(0.7vh + 0.7vw); }
 
 @media all and (max-width: 480px) {
   .index_block > img {
