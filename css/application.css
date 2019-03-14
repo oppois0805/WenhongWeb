@@ -441,11 +441,21 @@ hr {
   font-size: 16px;
   font-family: NotoSansCJKtc, serif !important; }
 
-.title > img {
-  margin-right: 1.5vw; }
-
-.title > span {
-  margin-top: 1vh; }
+.title {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important; }
+  .title > img {
+    margin-right: 1.5vw; }
+  .title > span {
+    color: #2145ff;
+    margin-top: 1vh; }
 
 .title_mobile > img {
   height: 6vh;
@@ -500,7 +510,7 @@ p {
   margin: 0 20%; }
 
 .image {
-  height: calc(15vh + 15vw);
+  height: calc(19vh + 17vw);
   margin-right: .6vw; }
 
 .image--left {
