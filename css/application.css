@@ -7421,7 +7421,7 @@ hr {
    撰寫product
    ========================================================================== */
 .product_good_eat {
-  font-size: 20px; }
+  font-size: calc(1vh + 1vw); }
   .product_good_eat > p {
     text-indent: 2em; }
 
@@ -7453,7 +7453,13 @@ hr {
             justify-content: center !important;
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
-            align-items: center !important; } }
+            align-items: center !important; }
+  p {
+    font-size: calc(1vw + 1vh); } }
+
+@media all and (max-width: 480px) {
+  p {
+    font-size: 20px; } }
 
 .title_mobile {
   display: -webkit-box;
