@@ -423,6 +423,14 @@ hr {
    撰寫button
    ========================================================================== */
 /* ==========================================================================
+   撰寫product
+   ========================================================================== */
+.product_good_eat {
+  font-size: 20px; }
+  .product_good_eat > p {
+    text-indent: 2em; }
+
+/* ==========================================================================
    撰寫layout
    ========================================================================== */
 @font-face {
@@ -432,6 +440,16 @@ hr {
 * {
   font-size: 16px;
   font-family: NotoSansCJKtc, serif !important; }
+
+.title > img {
+  margin-right: 1.5vw; }
+
+.title > span {
+  margin-top: 1vh; }
+
+.title_mobile > img {
+  height: 6vh;
+  margin-right: 2.5vw; }
 
 .tagline-upper {
   font-size: 80px;
@@ -470,6 +488,13 @@ hr.divider {
 .map-container iframe.clicked {
   pointer-events: auto; }
 
+.block_title {
+  font-size: 28px; }
+
+p {
+  line-height: 2;
+  font-weight: 700; }
+
 .image-container {
   max-width: 60%;
   margin: 0 20%; }
@@ -485,7 +510,16 @@ hr.divider {
 .image--right {
   float: right;
   margin-top: 2vh;
+  margin-bottom: .2vh;
   margin-left: .6vw; }
+
+.index_block {
+  font-size: 18px; }
+
+@media all and (max-width: 480px) {
+  .index_block > img {
+    width: 100%;
+    height: auto; } }
 
 /*!
  * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
